@@ -654,3 +654,12 @@ a.link-item {
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(135deg, #764ba2, #667eea);
 }
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #000000;
+  margin-top: 40px;
+}
