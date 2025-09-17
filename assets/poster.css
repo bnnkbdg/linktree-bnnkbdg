@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: #e0f2fe; /* biru langit muda */
+  color: #1e293b; /* teks abu gelap */
+}
+
+.poster-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.page-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom: 3px solid #1d4ed8; /* biru tua */
+  padding-bottom: 10px;
+  color: #0f172a; /* biru navy gelap */
+}
+
+.poster-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.poster-card {
+  background: #1e40af; /* biru sedang */
+  border: 2px solid #facc15; /* aksen kuning emas */
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.poster-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
+}
+
+.poster-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+.poster-info {
+  padding: 12px;
+  background: #f8fafc; /* putih keabu-abuan */
+}
+
+.poster-info .category {
+  display: inline-block;
+  font-size: 0.8rem;
+  color: #facc15; /* kuning emas */
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.poster-info h3 {
+  margin: 5px 0 0;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #1e293b; /* teks biru gelap */
+}
+
+/* Modal Style */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  padding-top: 50px;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0,0,0,0.85);
+  text-align: center;
+}
+
+.modal-content {
+  max-width: 90%;
+  max-height: 80%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.close {
+  position: absolute;
+  top: 20px; right: 35px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.download-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #facc15;
+  color: #1e293b;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.download-btn:hover {
+  background: #eab308;
+}
+
