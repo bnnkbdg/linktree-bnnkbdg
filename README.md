@@ -162,7 +162,7 @@ Sebelum publish, pastikan:
 ---
 
 **💻 Developer:** BangSa Tech Dev  
-**📅 Last Update:** 2024  
+**📅 Last Update:** 2025  
 **📧 Support:** [wa.me/6285798162625](https://wa.me/6285798162625)
   
 
