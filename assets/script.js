@@ -83,7 +83,11 @@ document.querySelectorAll(".sub-dropdown a").forEach(link => {
     if (link.textContent.trim() === "Informasi NPS") {
       return; // biarin default action jalan (buka tab baru)
     }
-
+    
+    if (link.textContent.trim() === "Pusat Data") {
+      return; // biarin default action jalan (buka tab baru)
+    }
+    
     if (link.textContent.trim() === "Pengaduan") {
       return; // biarin default action jalan (buka tab baru)
     }
