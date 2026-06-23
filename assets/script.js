@@ -3,9 +3,9 @@ const bgImage = document.getElementById("bg-image");
 
 function setImage() {
   if (window.innerWidth > 768) {
-    bgImage.src = "assets/1.jpg"; // gambar landscape
+    bgImage.src = "assets/1 Landscape.jpg"; // gambar landscape
   } else {
-    bgImage.src = "assets/2.jpg"; // gambar portrait
+    bgImage.src = "assets/2 Potrait.jpg"; // gambar portrait
   }
 }
 
