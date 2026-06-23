@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // isi konten modal
   const modalContents = {
     skhpn: `
-      <img src="assets/skhpn.jpg" alt="SKHPN" style="max-width: 100%; height: auto; margin-bottom: 15px;">
+      <img src="assets/skhpn2.jpg" alt="SKHPN" style="max-width: 100%; height: auto; margin-bottom: 15px;">
     `,
     magang: `
       <img src="assets/magang.jpg" alt="Magang" style="max-width: 100%; height: auto; margin-bottom: 15px;">
