@@ -95,7 +95,10 @@ document.querySelectorAll(".sub-dropdown a").forEach(link => {
     if (link.textContent.trim() === "Pendaftaran") {
       return; // biarin default action jalan (buka tab baru)
     }
-
+    if (link.textContent.trim() === "Pengajuan Magang") {
+      return; // biarin default action jalan (buka tab baru)
+    }
+    
     e.preventDefault(); // selain Bank Poster, tahan default action
 
     const key = link.dataset.info;
